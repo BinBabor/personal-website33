@@ -1,0 +1,134 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.33%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 42.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+.nav-logo{
+text-align: left;
+border-radius: 1000%;
+
+}
+.nav-heading h1{
+text-align: center;
+}
+
+.navbar-menu{
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.navbar-menu a{
+padding: 5px 10px;
+margin: 20px 0px;
+background-color: transparent;
+}
+
+
+
+
+
+
+
+
+.profile .top{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    width: 120px;
+    transition: width 2s, transform 3s;
+
+}
+.profile .top:hover{
+width: 140px;
+
+} 
+.profile-des p{
+    color: rgb(24, 233, 181);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.profile .bottom{
+  bottom: 60px;
+    left: 100px;
+    top: 20px;
+    width: 120px;
+    transition: width 2s, transform 3s;
+
+}
+.profile .bottom:hover{
+width: 140px;
+
+} 
+
+
+
+
+
+.aboutme-image{
+margin-top: 100px;
+}
+
+
+ .aboutme-image img{
+    height: 270px;
+     width: 250px;
+ }
+ .aboutme-desc p{
+text-align: left;
+ }
+
+
+
+
+
+ .professional{
+     padding: 1% 5%;
+ }
+
+
+
+.contact button{
+    width: 150px;
+
+}
+
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    margin-top:150px;
+ 
+    left: 80%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+}
+
+ .achi-contact{
+     padding: 3px 150px;
+     margin: 70px;
+     padding-right: 50px;
+ }
+
+.footer-menu{
+    margin-top: 12px;
+
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+}
